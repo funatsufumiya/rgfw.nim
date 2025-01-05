@@ -3,7 +3,8 @@ version       = "1.06.001"
 author        = "Fumiya Funatsu"
 description   = "Nim bindings for RGFW"
 license       = "MIT"
-srcDir        = "."
+
+skipDirs      = @["examples"]
 
 # Dependencies
 requires "nim >= 1.6.0"
